@@ -1,7 +1,7 @@
-import Bai4 from "./LAB1/bai4";
+import Lab2Page from './lab2/Lab2Page';
 
 function App() {
-  return <Bai4 />;
+  return <Lab2Page />;
 }
 
 export default App;
