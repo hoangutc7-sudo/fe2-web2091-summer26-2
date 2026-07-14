@@ -1,8 +1,4 @@
-import {
-  useMutation,
-  useQuery,
-  useQueryClient,
-} from "@tanstack/react-query";
+import {useMutation,useQuery,useQueryClient,} from "@tanstack/react-query";
 import { Table } from "antd";
 import axios from "axios";
 
