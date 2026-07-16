@@ -1,34 +1,74 @@
-import { Form, Input, Button, InputNumber } from "antd"
+import { App, Button, Form, Input, InputNumber } from "antd";
+
+interface ProductForm {
+  name: string;
+  price: number;
+  quantity: number;
+  description: string;
+}
 
 function Product() {
-    const onFinish = (data: any) => {
-        console.log(data);
-    };
-    return (
-        <Form onFinish={onFinish} layout="vertical">
-            <Form.Item
-            label="Ten San Pham"
-            name="name">
-             <Input />
-            </Form.Item>
-            <Form.Item
-            label="Gia"
-            name="price">
-             <InputNumber style={{ width: "100%" }}/>
-            </Form.Item>
-            <Form.Item
-            label="So Luong"
-            name="quantity">
-             <Input />
-            </Form.Item>
-            <Form.Item
-             label="Mo ta"
-             name="description">
-             <Input />
-            </Form.Item>
-            
-        <Button htmlType="submit">Submit</Button>
-        </Form>
-    );
+  const { message } = App.useApp();
+
+  const onFinish = (data: ProductForm) => {
+    console.log(data);
+
+    message.success("Thêm sản phẩm thành công");
+  };
+
+  return (
+    <Form onFinish={onFinish} layout="vertical">
+      <Form.Item
+        label="Tên Sản Phẩm"
+        name="name"
+        rules={[
+          {
+            required: true,
+            message: "Vui lòng nhập tên sản phẩm",
+          },
+        ]}
+      >
+        <Input />
+      </Form.Item>
+
+      <Form.Item
+        label="Giá"
+        name="price"
+        rules={[
+          {
+            required: true,
+            message: "Vui lòng nhập giá",
+          },
+        ]}
+      >
+        <InputNumber style={{ width: "100%" }} />
+      </Form.Item>
+
+      <Form.Item
+        label="Số Lượng"
+        name="quantity"
+        rules={[
+          {
+            required: true,
+            message: "Vui lòng nhập số lượng",
+          },
+        ]}
+      >
+        <InputNumber style={{ width: "100%" }} />
+      </Form.Item>
+
+      <Form.Item
+        label="Mô tả"
+        name="description"
+      >
+        <Input />
+      </Form.Item>
+
+      <Button type="primary" htmlType="submit">
+        Submit
+      </Button>
+    </Form>
+  );
 }
+
 export default Product;
