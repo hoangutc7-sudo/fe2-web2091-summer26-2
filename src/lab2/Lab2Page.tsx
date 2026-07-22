@@ -1,22 +1,37 @@
-import Bai1 from './Bai1';
-import Bai2 from './Bai2';
-import Bai3 from './Bai3';
+import { Image, Table } from "antd";
 
-const Lab2Page = () => {
-  return (
-    <div className="min-h-screen bg-gray-50 p-6">
-      <div className="mx-auto max-w-6xl space-y-6">
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold text-gray-900">Lab 2</h1>
-          <p className="mt-2 text-gray-600">Ba bảng dữ liệu với giao diện đơn giản và pagination.</p>
-        </div>
+function Lab2() {
+  const columns = [
+    {
+      title: "ID",
+      dataIndex: "id",
+    },
+    {
+      title: "Name",
+      dataIndex: "name",
+    },
+    {
+      title: "Avatar",
+      dataIndex: "avatar",
+      render: (value: string) => <Image src={value} />,
+    },
+  ];
+  const dataSource = [
+    {
+      key: 1,
+      id: 1,
+      name: "hoadv",
+      avatar: "https://i.pravatar.cc/150?img=1",
+    },
+    {
+      key: 2,
+      id: 2,
+      name: "hoadv2",
+      avatar: "https://i.pravatar.cc/150?img=2",
+    },
+  ];
 
-        <Bai1 />
-        <Bai2 />
-        <Bai3 />
-      </div>
-    </div>
-  );
-};
+  return <Table columns={columns} dataSource={dataSource} />;
+}
 
-export default Lab2Page;
+export default Lab2;
