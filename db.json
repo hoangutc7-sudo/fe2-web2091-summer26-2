@@ -4,234 +4,29 @@
       "id": 1,
       "title": "Harry Potter Và Hòn Đá Phù Thủy",
       "author": "J. K. Rowling",
-      "cover": "https://picsum.photos/300/450?random=1",
-      "createdAt": "2026-07-13T09:15:00"
+      "cover": "https://picsum.photos/300/450?random=1"
     },
     {
-      "title": "32534634",
-      "id": 2
+      "id": 2,
+      "title": "Conan Tập 1",
+      "author": "Gosho Aoyama",
+      "cover": "https://picsum.photos/300/450?random=2"
     },
     {
-      "title": "ytky",
-      "description": "tkyktyk",
-      "active": true,
-      "categoryId": 8,
+      "title": "ten truyen",
       "id": 3
     },
     {
-      "title": "ytky",
-      "description": "tkyktyk",
-      "active": true,
-      "categoryId": 1,
+      "title": "ten truyen",
       "id": 4
-    },
-    {
-      "title": "ytky",
-      "description": "tkyktyk",
-      "active": true,
-      "categoryId": 4,
-      "id": 5
     }
   ],
   "categories": [
     {
       "id": 1,
-      "title": "Anime"
-    },
-    {
-      "id": 2,
-      "title": "Truyện tranh"
-    },
-    {
-      "id": 3,
-      "title": "Tiểu thuyết"
-    },
-    {
-      "title": "ỳgj",
-      "description": "tjtjgj",
-      "active": true,
-      "id": 4
-    },
-    {
-      "title": "ỳgj",
-      "description": "tjtjgj",
-      "active": false,
-      "id": 5
-    },
-    {
-      "title": "6tjyjyu",
-      "id": 6
-    },
-    {
-      "title": "6tjyjyu",
-      "id": 7
-    },
-    {
-      "title": "hoangut",
-      "id": 8
-    },
-    {
-      "title": "hoangut",
-      "id": 9
-    },
-    {
-      "title": "hoangut",
-      "id": 10
-    },
-    {
-      "title": "hoangut235",
-      "id": 11
-    },
-    {
-      "title": "hoangut235",
-      "id": 12
-    },
-    {
-      "title": "hoangut235",
-      "id": 13
-    },
-    {
-      "title": "hoangut235",
-      "id": 14
-    },
-    {
-      "title": "hoangut235trutru",
-      "id": 15
-    },
-    {
-      "title": "yupyup",
-      "id": 16
-    },
-    {
-      "title": "yupyup",
-      "id": 17
-    },
-    {
-      "title": "yupyup",
-      "id": 18
-    },
-    {
-      "title": "gulgl",
-      "id": 19
-    },
-    {
-      "title": "gulgl",
-      "id": 20
-    },
-    {
-      "title": "gulgl",
-      "id": 21
-    },
-    {
-      "title": "gulgl",
-      "id": 22
-    },
-    {
-      "title": "gulgl",
-      "id": 23
-    },
-    {
-      "title": "gulgl",
-      "id": 24
-    },
-    {
-      "title": "ytktkyk",
-      "id": 25
-    },
-    {
-      "title": "ytktkyk",
-      "id": 26
-    },
-    {
-      "title": "ytktkyk",
-      "id": 27
-    },
-    {
-      "title": "ytktkyk",
-      "id": 28
-    },
-    {
-      "title": "ytktkyk",
-      "id": 29
-    },
-    {
-      "title": "ytktkyk",
-      "id": 30
-    },
-    {
-      "title": "ytktkyk",
-      "id": 31
-    },
-    {
-      "title": "ytktkyk",
-      "id": 32
-    },
-    {
-      "title": "ytktkyk",
-      "id": 33
-    },
-    {
-      "title": "ytktkyk",
-      "id": 34
-    },
-    {
-      "title": "ytktkyk",
-      "id": 35
-    },
-    {
-      "title": "ytktkyk",
-      "id": 36
-    },
-    {
-      "title": "ytktkyk",
-      "id": 37
-    },
-    {
-      "title": "ytktkyk",
-      "id": 38
-    },
-    {
-      "title": "ytktkyk",
-      "id": 39
-    },
-    {
-      "title": "gfm",
-      "description": "gfmgfm",
-      "active": true,
-      "id": 40
-    },
-    {
-      "title": "tgnfgn",
-      "description": "tntgnt",
-      "id": 41
-    },
-    {
-      "title": "cợi;i;",
-      "id": 42
-    },
-    {
-      "title": "trktrj",
-      "description": "trkjtrjt",
-      "active": true,
-      "id": 43
-    },
-    {
-      "title": "trktrjtrjtr",
-      "description": "trkjtrjttjtr",
-      "active": true,
-      "id": 44
-    },
-    {
-      "title": "trktrjtrjtr",
-      "description": "trkjtrjttjtr",
-      "active": true,
-      "id": 45
-    },
-    {
-      "title": "tr6jtj",
-      "description": "tjrtj",
-      "active": true,
-      "id": 46
+      "title": "Truyen trinh tham",
+      "description": "Truyen trinh tham hay",
+      "active": true
     }
   ]
 }
